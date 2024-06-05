@@ -12,7 +12,7 @@ This is a simple yet stylish To-Do application built with React, Redux, and Boot
 - Persistent storage with local storage
 
 ## Demo
-[Demo Link](https://todolist-fb400a.netlify.app/) (Replace this with a link to your live demo if available)
+[Demo Link](https://todolist-fb400a.netlify.app/) [https://todolist-fb400a.netlify.app/]
 
 
 ## Technologies Used
