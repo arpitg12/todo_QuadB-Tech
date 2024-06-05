@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+.headings {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightgray;
+    padding: 10px 0; /* Adjust padding as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    z-index: 999; /* Ensure it's above other content */
+
+}
+
+.headings h1 {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 40px; /* Adjust font size */
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin: 0;
+     /* Stylish border bottom */
+    padding-bottom: 10px; /* Add some space below the border */
+}

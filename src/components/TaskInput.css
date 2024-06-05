@@ -1,0 +1,10 @@
+.input{
+    border: 2px solid orange;
+    border-right: none;
+    border-bottom:none ;
+}
+.input:hover{
+    border: 2px double rgb(246, 15, 138);
+    border-left: none;
+    border-top:none ;
+}
