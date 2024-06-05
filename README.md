@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# React To-Do Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This is a simple yet stylish To-Do application built with React, Redux, and Bootstrap. It allows users to add, view, edit, delete, and mark tasks as completed. Tasks are stored in local storage to ensure they persist across page reloads.
 
-## Available Scripts
+## Features
+- Add new tasks
+- View a list of tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed or incomplete
+- Persistent storage with local storage
 
-In the project directory, you can run:
+## Demo
+[Demo Link](https://todolist-fb400a.netlify.app/) (Replace this with a link to your live demo if available)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- React
+- Redux
+- React-Bootstrap
+- FontAwesome
+- Local Storage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+### Prerequisites
+- Node.js (>= 12.x)
+- npm or yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Clone the Repository
+```bash
+git clone https://github.com/yourusername/react-todo-app.git
+cd react-todo-app
 
-### `npm run build`
+## Install Dependencies
+# Using npm:
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Using yarn:
+yarn install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Running the Application
+# To start the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Using npm:
+npm start
 
-### `npm run eject`
+Using yarn:
+yarn start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open http://localhost:3000 to view it in the browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Building for Production
+# To build the app for production:
+Using npm:
+npm run build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Using yarn:
+yarn build
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The build artifacts will be stored in the build/ directory.
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+react-todo-app/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── TaskInput.js
+│   │   ├── TaskItem.js
+│   │   ├── TaskList.js
+│   │   └── ...
+│   ├── redux/
+│   │   ├── store.js
+│   │   ├── taskSlice.js
+│   │   └── ...
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── ...
+├── .gitignore
+├── package.json
+├── README.md
+└── ...
+Usage
+# Adding a Task
+Enter the task description in the input field.
+Press Enter or click the "+" button to add the task.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Editing a Task
+Click the edit icon next to the task you want to edit.
+Modify the task description in the modal and click "Save Changes".
 
-### Code Splitting
+# Deleting a Task
+Click the trash icon next to the task you want to delete.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Toggling Task Completion
+Click the check/undo icon next to the task to mark it as completed or incomplete.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Contributing
+Contributions are welcome! Please fork the repository and submit a pull request.
